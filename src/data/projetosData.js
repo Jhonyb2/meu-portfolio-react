@@ -3,7 +3,7 @@ const meusProjetos = [
         titulo: 'Biblioteca em C',
         descricao: 'Um sistema de gerenciamento de biblioteca utilizando alocação dinâmica de memória.',
         linguagem: 'C',
-        imagem: '/img/lib-c.jpg',
+        imagem: 'public/img/biblioteca-c.jpg',
         link_projeto: 'https://github.com/Jhonyb2/Biblioteca-protejo-ads-em-C'
     },
     {
