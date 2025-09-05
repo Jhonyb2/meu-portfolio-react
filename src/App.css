@@ -1,0 +1,82 @@
+/*
+    Estilos globais para a página
+*/
+body, html {
+    height: 100%;
+    
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/*
+    Ajuste para a barra de navegação do Bootstrap
+*/
+.navbar {
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+/*
+    Estilos para a seção de boas-vindas ('hero-section')
+*/
+.hero-section {
+    height: 100vh;
+    color: white; 
+    
+    /* Caminho corrigido para a imagem de fundo */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/img/background.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding-top: 56px; /* Ajuste para o tamanho da navbar */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+    Estilos de seções para rolagem suave
+*/
+section {
+    padding-top: 56px; /* Espaço para a barra de navegação fixa */
+    padding-bottom: 80px;
+    min-height: 100vh;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*
+    Estilos para os cartões de projeto
+*/
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/*
+    Estilos para o rodapé
+*/
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+    width: 100%;
+}
