@@ -11,7 +11,7 @@ function Projetos() {
                     <div key={index} className="col-md-6 col-lg-4 mb-4">
                         <div className="card h-100">
                             {/* O caminho da imagem agora é referenciado a partir da pasta 'public' */}
-                            <img src={`/img/${projeto.imagem}`} className="card-img-top" alt={`Imagem do Projeto ${projeto.titulo}`} />
+                            <img src={`/public/img/${projeto.imagem}`} className="card-img-top" alt={`Imagem do Projeto ${projeto.titulo}`} />
                             
                             <div className="card-body">
                                 <h5 className="card-title">{projeto.titulo}</h5>
